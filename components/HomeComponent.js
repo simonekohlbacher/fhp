@@ -11,7 +11,8 @@ export default class HomeComponent extends KWM_Component {
     constructor() {
         super();
         // Any component data goes here in the constructor
-        //this.text = 'Überschr1';
+        this.heading = 'Überschrift 1';
+        this.text = 'Knock dish off table head butt cant eat out of my own dish pee in human\'s bed until he cleans the litter box catch mouse and gave it as a present cat playing a fiddle in hey diddle diddle? or one of these days i\'m going to get that red dot.';
 
     }
 
@@ -28,7 +29,12 @@ export default class HomeComponent extends KWM_Component {
                     background-image="${"/images/berge.JPG"}">
                 </hero-teaser-component>
             
-
+             <h1>${this.heading}</h1>
+             </br>
+             <p>${this.text}</p>
+             
+             
+             
   
         </section>
         `;

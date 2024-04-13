@@ -11,11 +11,12 @@
 /* Nav */
 #navigation {
     background-color: white;
+    padding: 1.7rem;
 }
 
 .nav-link {
     text-transform: uppercase;
-    color: var(--kwmjs-black);
+    font-weight: bold;
 }
 
 #navbarNav .navbar-nav {
@@ -48,12 +49,20 @@ body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    color: var(--kwmjs-black);
-    background-color: var(--kwmjs-white);
+    font-size: 16px;
 }
 
 button {
     cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 
