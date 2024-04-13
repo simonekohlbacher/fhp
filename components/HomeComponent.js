@@ -11,8 +11,8 @@ export default class HomeComponent extends KWM_Component {
     constructor() {
         super();
         // Any component data goes here in the constructor
-        this.heading = 'Überschrift 1';
-        this.text = 'Knock dish off table head butt cant eat out of my own dish pee in human\'s bed until he cleans the litter box catch mouse and gave it as a present cat playing a fiddle in hey diddle diddle? or one of these days i\'m going to get that red dot.';
+        this.heading = 'Klein & Fein';
+        this.text = 'Unser Selbstversorger-Häuschen befindet sich im Winter direkt an der Ski-Piste Reiteralm. Im Sommer bietet das Haus den optimalen Ausgangspunkt für zahlreiche Erlebnisse.';
 
     }
 
@@ -22,8 +22,8 @@ export default class HomeComponent extends KWM_Component {
         <section id="main_content">
            
             <hero-teaser-component 
-                    heading="Ü1" 
-                    text="Knock dish off table head butt cant eat out of my own dish pee in human's bed until he" 
+                    heading="Ankommen & Abschalten.." 
+                    text= "im Ferienhaus Pürstl - direkt an der Piste der Reiteralm." 
                     btn-text="" 
                     link="#/" 
                     background-image="${"/images/berge.JPG"}">
