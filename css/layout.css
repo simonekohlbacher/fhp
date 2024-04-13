@@ -1,11 +1,47 @@
 /* Main Layout & Colors */
 
 :root {
-    --kwmjs-accent: #8147a7;
+    --grey: rgba(160, 140, 132, 0.24); /* Grau mit 24% Transparenz */
     --kwmjs-white: #f8f8f8;
     --kwmjs-black: #1c1c1c;
     --kwmjs-blue: #4757a7;
 }
+
+
+/* Nav */
+#navigation {
+    background-color: white;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: var(--kwmjs-black);
+}
+
+#navbarNav .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 3rem;
+}
+
+#logo {
+    margin-left: 3rem;
+}
+
+
+header ul li .active {
+    text-decoration: underline;
+}
+
+header ul li:hover a {
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff0000;
+}
+
 
 
 body {
@@ -20,32 +56,8 @@ button {
     cursor: pointer;
 }
 
-/* Nav */
-header ul {
 
-}
 
-header ul li {
-    height: 80px;
-    line-height: 80px;
-    cursor: pointer;
-}
-
-header ul li a {
-
-}
-
-header ul li .active {
-    text-decoration: underline;
-}
-
-header ul li:hover {
-    background-color: red;
-}
-
-header ul li:hover a {
-    text-decoration: none;
-}
 
 /* Footer */
 
