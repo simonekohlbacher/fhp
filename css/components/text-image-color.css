@@ -1,0 +1,17 @@
+.image-and-text {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.image-and-text .content {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.image-and-text .content .text {
+    align-self: center;
+}
+
+

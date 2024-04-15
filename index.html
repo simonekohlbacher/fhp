@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <meta lang="en">
+    <meta lang="de">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport"
           content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
     <link rel="stylesheet" type="text/css" href="app.css"/>
     <title>Ferienhaus Pürstl</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="images/logo_ferienhaus_puerstl.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
 <header>
@@ -17,16 +19,17 @@
             <a href="#">
                 <img id="logo" src="images/logo_ferienhaus_puerstl.png" height="90rem" alt="Ferienhaus Puerstl Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Willkommen</a>
+                        <a class="nav-link" href="#">Willkommen</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ferienhaus</a>
+                        <a class="nav-link" href="#/ferienhaus">Ferienhaus</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Erleben</a>
@@ -43,10 +46,41 @@
 
 </header>
 <main id="kwmJS">
-    <!-- this is the container element in which our SPA will be rendered -->
-    <div>If components rendering works I will be gone...</div>
+    <div>Willkommen..</div>
 </main>
+
+<footer>
+
+    <div class="links">
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100075966014770"target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/ferienhaus_puerstl/?hl=en" target="_blank">Instagram</a>
+        </div>
+        <br>
+        <a href="#">(c)Ferienhaus Pürstl</a>
+        <br>
+        <a href="#/impressum">Impressum</a>
+        <span>|</span>
+        <a href="#/datenschutz">Datenschutz</a>
+    </div>
+
+
+    <div class="partner">
+        <a href="https://www.reiteralm.at/de" target="_blank">
+            <img src="images/logo_reiteralm.jpg" alt="Reiteralm">
+        </a>
+        <a href="https://www.schladming-dachstein.at/de" target="_blank">
+            <img src="images/logo_schladmingdachstein.jpg" alt="Schladming Dachstein">
+        </a>
+        <a href="https://www.skiamade.com/de" target="_blank">
+            <img src="images/logo_skiamade.png" alt="Ski Amade">
+        </a>
+    </div>
+</footer>
+
 <script type="module" src="./app.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 </html>

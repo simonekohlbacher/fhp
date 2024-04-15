@@ -3,9 +3,10 @@
 
 import HomeComponent from "./components/HomeComponent.js";
 import NotFoundComponent from "./components/NotFoundComponent.js";
-import ContactComponent from "./components/ContactComponent.js";
+import FerienhausComponent from "./components/FerienhausComponent.js";
 import AboutComponent from "./components/AboutComponent.js";
 import HeroTeaserComponent from "./components/HeroTeaserComponent.js";
+import ImageTextInColorComponent from "./components/ImageTextInColorComponent.js";
 
 import KWM_Route from './core/kwm-route.js';
 import KWM_Router from './core/kwm-router.js';
@@ -24,11 +25,9 @@ const myRouter = new KWM_Router({
             component: new AboutComponent()
         }),
         new KWM_Route({
-            slug: "/contact",
-            name: "Contact",
-            component: new ContactComponent(),
-            // (Bonus) make sure if the user is allowed to see the component - when not - redirect to 404
-            canRender: () => confirm('🛡️ Security check: Everything ok?') ? true : KWM_Router.redirect('/404')
+            slug: "/ferienhaus",
+            name: "Ferienhaus",
+            component: new FerienhausComponent(),
         }),
         new KWM_Route({
             slug: "/404",
