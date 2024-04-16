@@ -60,9 +60,7 @@ h1 {
     font-size: 2rem;
 }
 
-#main_content {
-    text-align: center;
-}
+
 
 
 /* Footer */
@@ -89,3 +87,30 @@ footer .partner img {
     font-size: 0;
     line-height: 0;
 }
+
+.cardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+
+
+.carousel-item {
+    width:70vw;
+    height:30vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Stellt sicher, dass der Körper mindestens die volle Bildschirmhöhe einnimmt */
+}
+
+footer {
+    margin-top: auto; /* Sorgt dafür, dass der Footer immer am unteren Rand des Bildschirms bleibt */
+}
+

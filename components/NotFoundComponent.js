@@ -7,7 +7,7 @@ export default class NotFoundComponent extends KWM_Component {
         super();
 
         // Any component data goes here in the constructor
-        this.text = '⚠️ Ooops! It seems we have lost this page';
+        this.text = "Ups, die Seite gibt's nicht!";
     }
 
     // Template function = shape of the component
@@ -15,8 +15,7 @@ export default class NotFoundComponent extends KWM_Component {
         return /*html*/`
         <section id="main_content">
             <h1>${this.text}</h1>
-            <img src="https://mailchimp.com/static/images/404Horse.gif?w=780&fm=png&q=70" />
-            <p><a href="#/">Back to Home</a></p>
+            <p><a href="#/">Zurück zur Startseite</a></p>
         </section>
         `;
     }

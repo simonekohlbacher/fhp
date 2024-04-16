@@ -11,9 +11,10 @@ export default class HomeComponent extends KWM_Component {
     constructor() {
         super();
         // Any component data goes here in the constructor
-        this.heading = 'Klein & Fein';
-        this.text = 'Unser Selbstversorger-Häuschen befindet sich im Winter direkt an der Ski-Piste Reiteralm. Im Sommer bietet das Haus den optimalen Ausgangspunkt für zahlreiche Erlebnisse.';
-
+        this.mainHeading = 'Klein & Fein';
+        this.mainText = 'Unser Selbstversorger-Häuschen befindet sich im Winter direkt an der Ski-Piste Reiteralm. Im Sommer bietet das Haus den optimalen Ausgangspunkt für zahlreiche Erlebnisse.';
+        this.secHeading = "Coming soon..";
+        this.secText = "Coming soon..";
     }
 
     // Template function = shape of the component
@@ -29,31 +30,65 @@ export default class HomeComponent extends KWM_Component {
                     background-image="${"/images/berge.JPG"}">
                </hero-teaser-component>
             
-             <h1>${this.heading}</h1>
-             </br>
-             <p>${this.text}</p>
-             
-             <p>Kontakt:
-             Familie Pürstl-Kohlbacher, 8973 Pichl/Preunegg, Gleiming 19,  Tel.: +43 664 / 46 36 602
-             </p>
+            
+              <simple-text-component
+              heading= "${this.mainHeading}"
+              text= "${this.mainText}">
+            </simple-text-component>
+            
+          
+           
+                 <div class="cardsContainer">
+                    <card-component>
+                    
+                    </card-component>
+                    <card-component>
+                    
+                    </card-component>
+                    
+                    <card-component>
+                    
+                    </card-component>
+                </div>
+            
+               
              
              <image-text-color-component
-                    heading="Überschrift1" 
-                    text= "Knock dish off table head butt cant eat out of my own dish pee in human's bed until he cleans the litter box catch mouse and gave it as a present cat playing a fiddle in hey diddle diddle? or one of these days i'm going to get that red dot.
-Knock dish off table head butt cant eat out of my own dish pee in human's bed until he cleans the litter box catch mouse and gave it as a present cat playing a fiddle in hey diddle diddle? or one of these days i'm going to get that red dot." 
+                    heading= "Coming soon.." 
+                    text= "Coming soon.." 
                     btn-text="" 
                     link="#/"
                     image="${"/images/berge.JPG"}">
               </image-text-color-component>
               
-              
-              <h1>Überschrift1</h1>
-             </br>
-             <p>Knock dish off table head butt cant eat out of my own dish pee in human's bed until he cleans the litter box catch mouse and gave it as a present cat playing a fiddle in hey diddle diddle? or one of these days i'm going to get that red dot.
-Knock dish off table head butt cant eat out of my own dish pe</p>
+              <simple-text-component
+              heading = "${this.secHeading}"
+              text = "${this.secText}">
+            </simple-text-component>
+
+            
              
-             
-  
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/images/berge.JPG" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
         </section>
         `;
     }

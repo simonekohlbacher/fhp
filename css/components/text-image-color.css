@@ -4,14 +4,17 @@
 }
 
 .image-and-text .content {
-    padding: 5rem;
+    padding: 5rem 10rem 5rem 10rem;
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    justify-content: space-between;
 }
 
 .image-and-text .content .text {
     align-self: center;
+    text-align: left;
+
+
 }
 
 
