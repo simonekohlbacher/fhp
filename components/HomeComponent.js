@@ -66,8 +66,8 @@ export default class HomeComponent extends KWM_Component {
               
               
              <simple-text-component
-                heading = "Bilder sagen mehr als Worte.."
-                text = "${this.secText}">
+                heading = "Bilder sagen mehr als Worte..">
+              
              </simple-text-component>
                         
              <gallery-component
