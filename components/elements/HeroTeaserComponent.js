@@ -4,9 +4,20 @@ import KWM_Component from '../../core/kwm-component.js';
 export default class HeroTeaserComponent extends KWM_Component {
     constructor() {
         super();
+        const btnText = this.getAttribute('btn-text') ?? '';
+
     }
 
     template() {
+
+        const link = this.getAttribute('link') ?? '#/';
+        const btnText = this.getAttribute('btn-text') ?? '';
+
+        let buttonHtml = '';
+        if (btnText && link) {
+            buttonHtml = `<a class="btn btn-secondary" href="${link}">${btnText}</a>`;
+        }
+
         return /*html*/`
             <section class="hero-teaser">
                 <div class="content">
@@ -14,7 +25,7 @@ export default class HeroTeaserComponent extends KWM_Component {
                     <div class="text">
                         <h1>${this.getAttribute('heading') ?? ''}</h1>
                         <p>${this.getAttribute('text') ?? ''}</p>
-                        <p><a class="cta" href="${this.getAttribute('link') ?? '#/'}">${this.getAttribute('btn-text') ?? ''}</a></p>
+                        ${buttonHtml}                    
                     </div>
                 </div>
             </section>

@@ -1,6 +1,7 @@
 .image-and-text {
     margin-bottom: 3rem;
     margin-top: 3rem;
+    width: 100%;
 }
 
 .image-and-text .content {
@@ -16,7 +17,8 @@
     align-self: center;
     text-align: left;
 
-
 }
+
+
 
 

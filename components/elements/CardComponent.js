@@ -14,7 +14,7 @@ export default class CardComponent extends KWM_Component {
                 <div class="card-body">
                     <h5 class="card-title">${this.getAttribute('title') ?? ''}</h5>
                     <p class="card-text">${this.getAttribute('text') ?? ''}</p>
-                    <a href="#" class="btn btn-primary">${this.getAttribute('btn-text') ?? ''}</a>
+                    <a class="btn btn-primary" href="${this.getAttribute('link') ?? ''}">${this.getAttribute('btn-text') ?? ''}</a>
                  </div>
                </div>
             </section>

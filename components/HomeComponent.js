@@ -39,19 +39,22 @@ export default class HomeComponent extends KWM_Component {
                 <card-component 
                     title= "Das Häuschen"
                     text="Abseits vom Trubel & direkt neben der Piste"
-                    btn-text="Mehr">
+                    btn-text="Mehr"
+                    link="#/ferienhaus">
                 </card-component>
                 
                 <card-component
                 title= "Die Region"
-                    text="Some quick example text to build on the card title and make up the bulk of the card's content."
-                    btn-text="Mehr">
+                    text="Sommer wie Winter - immer ein Erlebnis"
+                    btn-text="Mehr"
+                    link="#/erleben">
                 </card-component>
 
                 <card-component 
                 title= "Hier findest du uns"
-                    text="Some quick example text to build on the card title and make up the bulk of the card's content."
-                    btn-text="Mehr">
+                    text="Schreib uns oder ruf uns an - wir helfen dir gerne weiter"
+                    btn-text="Mehr"
+                    link="#/kontakt">
                 </card-component>
             </div>
             
@@ -67,7 +70,6 @@ export default class HomeComponent extends KWM_Component {
               
              <simple-text-component
                 heading = "Bilder sagen mehr als Worte..">
-              
              </simple-text-component>
                         
              <gallery-component

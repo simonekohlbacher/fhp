@@ -1,0 +1,12 @@
+.text-color {
+    background-color: var(--cream);
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    width: 100%;
+
+}
+
+.text-color .content {
+    padding: 5rem;
+
+}

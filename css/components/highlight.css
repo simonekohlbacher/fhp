@@ -1,0 +1,49 @@
+.highlightContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    margin: 4rem;
+    justify-content: space-around;
+}
+
+.card.highlight{
+    background-color: var(--cream) !important;
+    transition: transform 0.5s;
+    position: relative;
+}
+
+.card-body.highlight .card-front,
+.card-body.highlight .card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-back {
+    transform: rotateY(180deg); /* Beginne gedreht, um die Rückseite anzuzeigen */
+    opacity: 0; /* Standardmäßig unsichtbar machen */
+    pointer-events: none; /* Deaktiviere Mausereignisse auf der Rückseite */
+}
+
+.card.highlight:hover .card-back {
+    opacity: 1; /* Bei Hover sichtbar machen */
+}
+
+.card.highlight:hover .card-front {
+    opacity: 0; /* Bei Hover unsichtbar machen */
+}
+
+.card.highlight:hover .card-body {
+    transition: transform 0.5s ease;
+    transform: rotateY(180deg); /* Bei Hover drehen */
+}
+
+.standAlone {
+    justify-self: center !important;
+}
