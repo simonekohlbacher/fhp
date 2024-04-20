@@ -26,7 +26,7 @@ export default class HomeComponent extends KWM_Component {
                 text= "im Ferienhaus Pürstl - direkt an der Piste der Reiteralm." 
                 btn-text="" 
                 link="#/" 
-                background-image="${"/images/berge.JPG"}">
+                background-image="/images/berge.JPG">
             </hero-teaser-component>
             
               
@@ -61,7 +61,7 @@ export default class HomeComponent extends KWM_Component {
                     text= "Coming soon.." 
                     btn-text="" 
                     link="#/"
-                    image="${"/images/berge.JPG"}">
+                    image="/images/berge.JPG">
              </image-text-color-component>
               
               
@@ -69,15 +69,27 @@ export default class HomeComponent extends KWM_Component {
                 heading = "Bilder sagen mehr als Worte.."
                 text = "${this.secText}">
              </simple-text-component>
-             
-             <img src="/images/sommer_test.JPG" class="img-fluid" alt="...">
-            
-            <carousel-component
-                image1 ="${"/images/sommer_test.JPG"}"
-                image2 ="${"/images/außen_winter_main.JPG"}"
-                image3 ="${"/images/außen_sommer.JPG"}">
-            </carousel-component>
-            
+                        
+             <gallery-component
+                image1="/images/außen_sommer_main.JPG"  
+                    alt1="Sommerbild"
+                image2="/images/außen_winter_main.JPG"
+                    alt2="Sommerbild"
+                image3="/images/berge.JPG"
+                    alt3="Sommerbild"
+                image4="/images/berge.JPG"
+                    alt4="Sommerbild"
+                image5="/images/berge.JPG"
+                    alt5="Sommerbild"    
+               image6="/images/berge.JPG"
+                    alt6="Sommerbild"
+               image7="/images/berge.JPG"
+                    alt7="Sommerbild"
+                image8="/images/berge.JPG"
+                    alt8="Sommerbild"
+                image9="/images/berge.JPG"
+                    alt9="Sommerbild">
+            </gallery-component>
             
         </section>
         
@@ -85,6 +97,11 @@ export default class HomeComponent extends KWM_Component {
 
 
     }
+
+
+
+
+
 
 
 }

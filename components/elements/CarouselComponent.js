@@ -1,40 +1,36 @@
 'use strict';
 import KWM_Component from '../../core/kwm-component.js';
 
-export default class CarouselComponent extends KWM_Component {
+export default class GalleryComponent extends KWM_Component {
     constructor() {
         super();
     }
 
     template() {
         return /*html*/`
-            <section class="carousel">
-               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="${this.getAttribute('image1')}" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                       <img src="${this.getAttribute('image2')}" alt="Sec slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="${this.getAttribute('image3')}" alt="Third slide">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Zurück</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Nächstes</span>
-                  </a>
-                </div>
-                
-             
+            <section class="gallery">
+               <div class="pictures">
+                <img src="${this.getAttribute('image1')}" class="img" alt="${this.getAttribute('alt1')}">
+                <img src="${this.getAttribute('image2')}" class="img" alt="${this.getAttribute('alt2')}">                
+                <img src="${this.getAttribute('image3')}" class="img" alt="${this.getAttribute('alt3')}">                
+                <img src="${this.getAttribute('image4')}" class="img" alt="${this.getAttribute('alt4')}">                
+                <img src="${this.getAttribute('image5')}" class="img" alt="${this.getAttribute('alt5')}">                
+                <img src="${this.getAttribute('image6')}" class="img" alt="${this.getAttribute('alt6')}">                
+                <img src="${this.getAttribute('image7')}" class="img" alt="${this.getAttribute('alt7')}">                
+                <img src="${this.getAttribute('image8')}" class="img" alt="${this.getAttribute('alt8')}">                
+                <img src="${this.getAttribute('image9')}" class="img" alt="${this.getAttribute('alt9')}">                
+            </div> 
+            
+            <div id="overlay">
+                <button id="closeButton">X</button>
+                <button id="prevButton">Vorheriges</button>
+                <button id="nextButton">Nächstes</button>
+            </div>
             </section>
         `;
     }
+
+
 }
 
-customElements.define('carousel-component', CarouselComponent);
+customElements.define('gallery-component', GalleryComponent);

@@ -64,3 +64,58 @@ const myRouter = new KWM_Router({
 myRouter.init();
 
 // Navigating to the home page should display the Hero-Teaser similar like in the example picture
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const pictures = document.querySelectorAll('.pictures img');
+    const overlay = document.getElementById('overlay');
+    const closeButton = document.getElementById('closeButton');
+    const nextButton = document.getElementById('nextButton');
+    const prevButton = document.getElementById('prevButton');
+    let currentIndex = 0;
+
+    // Funktion zum Öffnen eines Bildes
+    function openImage(index) {
+        const img = pictures[index];
+        img.classList.add('enlarge');
+        overlay.style.display = 'block'; // Zeige das Overlay an
+        closeButton.style.display = 'block'; // Zeige den Schließen-Button an
+        currentIndex = index;
+    }
+
+    // Funktion zum Schließen eines Bildes
+    function closeImage() {
+        const enlargedImg = document.querySelector('.pictures img.enlarge');
+        if (enlargedImg) {
+            enlargedImg.classList.remove('enlarge');
+            overlay.style.display = 'none'; // Verstecke das Overlay
+            closeButton.style.display = 'none'; // Verstecke den Schließen-Button
+        }
+    }
+
+    // Klick-Eventlistener für jedes Bild
+    pictures.forEach((img, index) => {
+        img.addEventListener('click', function() {
+            openImage(index);
+        });
+    });
+
+    // Klick-Eventlistener für den Schließen-Button
+    closeButton.addEventListener('click', function() {
+        closeImage();
+    });
+
+    // Klick-Eventlistener für die nächste Schaltfläche
+    nextButton.addEventListener('click', function() {
+        const nextIndex = (currentIndex + 1) % pictures.length;
+        closeImage(); // Schließe das aktuelle Bild
+        openImage(nextIndex); // Öffne das nächste Bild
+    });
+
+    // Klick-Eventlistener für die vorherige Schaltfläche
+    prevButton.addEventListener('click', function() {
+        const prevIndex = (currentIndex - 1 + pictures.length) % pictures.length;
+        closeImage(); // Schließe das aktuelle Bild
+        openImage(prevIndex); // Öffne das vorherige Bild
+    });
+});
