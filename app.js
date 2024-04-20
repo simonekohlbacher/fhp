@@ -1,6 +1,5 @@
 'use strict';
 
-
 import HomeComponent from "./components/HomeComponent.js";
 import NotFoundComponent from "./components/NotFoundComponent.js";
 import FerienhausComponent from "./components/FerienhausComponent.js";
@@ -14,7 +13,6 @@ import GalleryComponent from "./components/elements/GalleryComponent.js";
 import ImageTextInColorComponent from "./components/elements/ImageTextInColorComponent.js";
 import CardComponent from "./components/elements/CardComponent.js";
 import SimpleTextComponent from "./components/elements/SimpleTextComponent.js";
-import HeroComponent from "./components/elements/HeroComponent.js";
 import HighlightComponent from "./components/elements/HighlightComponent";
 import TextInColorComponent from "./components/elements/TextInColorComponent";
 import Gallery3Component from "./components/elements/Gallery3Component";
