@@ -6,13 +6,14 @@ import NotFoundComponent from "./components/NotFoundComponent.js";
 import FerienhausComponent from "./components/FerienhausComponent.js";
 import ErlebenComponent from "./components/ErlebenComponent.js";
 import ImpressumComponent from "./components/ImpressumComponent.js";
-import HeroTeaserComponent from "./components/HeroTeaserComponent.js";
+import HeroTeaserComponent from "./components/elements/HeroTeaserComponent.js";
 import DatenschutzComponent from "./components/DatenschutzComponent.js";
 import KontaktComponent from "./components/KontaktComponent.js";
+import CarouselComponent from "./components/elements/CarouselComponent.js";
 
-import ImageTextInColorComponent from "./components/ImageTextInColorComponent.js";
-import CardComponent from "./components/CardComponent.js";
-import SimpleTextComponent from "./components/SimpleTextComponent.js";
+import ImageTextInColorComponent from "./components/elements/ImageTextInColorComponent.js";
+import CardComponent from "./components/elements/CardComponent.js";
+import SimpleTextComponent from "./components/elements/SimpleTextComponent.js";
 
 import KWM_Route from './core/kwm-route.js';
 import KWM_Router from './core/kwm-router.js';

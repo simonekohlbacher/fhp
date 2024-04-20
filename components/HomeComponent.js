@@ -13,8 +13,7 @@ export default class HomeComponent extends KWM_Component {
         // Any component data goes here in the constructor
         this.mainHeading = 'Klein & Fein';
         this.mainText = 'Unser Selbstversorger-Häuschen befindet sich im Winter direkt an der Ski-Piste Reiteralm. Im Sommer bietet das Haus den optimalen Ausgangspunkt für zahlreiche Erlebnisse.';
-        this.secHeading = "Coming soon..";
-        this.secText = "Coming soon..";
+
     }
 
     // Template function = shape of the component
@@ -23,75 +22,71 @@ export default class HomeComponent extends KWM_Component {
         <section id="main_content">
            
             <hero-teaser-component
-                    heading="Ankommen & Abschalten.." 
-                    text= "im Ferienhaus Pürstl - direkt an der Piste der Reiteralm." 
-                    btn-text="" 
-                    link="#/" 
-                    background-image="${"/images/berge.JPG"}">
-               </hero-teaser-component>
+                heading="Ankommen & Abschalten.." 
+                text= "im Ferienhaus Pürstl - direkt an der Piste der Reiteralm." 
+                btn-text="" 
+                link="#/" 
+                background-image="${"/images/berge.JPG"}">
+            </hero-teaser-component>
             
-            
-              <simple-text-component
-              heading= "${this.mainHeading}"
-              text= "${this.mainText}">
+              
+            <simple-text-component
+                heading= "${this.mainHeading}"
+                text= "${this.mainText}">
             </simple-text-component>
-            
-          
-           
-                 <div class="cardsContainer">
-                    <card-component>
-                    
-                    </card-component>
-                    <card-component>
-                    
-                    </card-component>
-                    
-                    <card-component>
-                    
-                    </card-component>
-                </div>
-            
                
-             
+            <div class="cardsContainer">
+                <card-component 
+                    title= "Das Häuschen"
+                    text="Abseits vom Trubel & direkt neben der Piste"
+                    btn-text="Mehr">
+                </card-component>
+                
+                <card-component
+                title= "Die Region"
+                    text="Some quick example text to build on the card title and make up the bulk of the card's content."
+                    btn-text="Mehr">
+                </card-component>
+
+                <card-component 
+                title= "Hier findest du uns"
+                    text="Some quick example text to build on the card title and make up the bulk of the card's content."
+                    btn-text="Mehr">
+                </card-component>
+            </div>
+            
+            
              <image-text-color-component
                     heading= "Coming soon.." 
                     text= "Coming soon.." 
                     btn-text="" 
                     link="#/"
                     image="${"/images/berge.JPG"}">
-              </image-text-color-component>
+             </image-text-color-component>
               
-              <simple-text-component
-              heading = "${this.secHeading}"
-              text = "${this.secText}">
-            </simple-text-component>
-
-            
+              
+             <simple-text-component
+                heading = "Bilder sagen mehr als Worte.."
+                text = "${this.secText}">
+             </simple-text-component>
              
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="/images/berge.JPG" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+             <img src="/images/sommer_test.JPG" class="img-fluid" alt="...">
+            
+            <carousel-component
+                image1 ="${"/images/sommer_test.JPG"}"
+                image2 ="${"/images/außen_winter_main.JPG"}"
+                image3 ="${"/images/außen_sommer.JPG"}">
+            </carousel-component>
+            
+            
         </section>
+        
         `;
+
+
     }
+
+
 }
 
 // usage in HTML like: <home-component></home-component>

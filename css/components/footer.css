@@ -1,0 +1,41 @@
+/* Footer */
+
+footer {
+    background-color: var(--cream);
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+footer .links a {
+    color: black;
+}
+
+footer .partner img {
+    width: 10rem;
+    margin: 1rem;
+
+}
+
+.partner {
+    font-size: 0;
+    line-height: 0;
+}
+
+
+
+.carousel-item {
+    width:70vw;
+    height:30vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Stellt sicher, dass der Körper mindestens die volle Bildschirmhöhe einnimmt */
+}
+
+footer {
+    margin-top: auto; /* Sorgt dafür, dass der Footer immer am unteren Rand des Bildschirms bleibt */
+}

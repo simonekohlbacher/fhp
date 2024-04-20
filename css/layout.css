@@ -1,49 +1,9 @@
 /* Main Layout & Colors */
 
 :root {
-    --grey: rgba(160, 140, 132, 0.24); /* Grau mit 24% Transparenz */
-    --kwmjs-white: #f8f8f8;
-    --kwmjs-black: #1c1c1c;
-    --kwmjs-blue: #4757a7;
+    --cream: rgba(160, 140, 132, 0.24); /* Grau mit 24% Transparenz */
+
 }
-
-
-/* Nav */
-#navigation {
-    background-color: white;
-    padding: 1.7rem;
-}
-
-.nav-link {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-
-.navbar-nav .nav-link:hover {
-    color: var(--grey);
-}
-
-.navbar-nav .nav-link:active {
-    text-decoration: underline;
-    color: red;
-}
-
-
-
-#navbarNav .navbar-nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 3rem;
-}
-
-#logo {
-    margin-left: 3rem;
-}
-
-
-
 
 body {
     padding: 0;
@@ -52,65 +12,32 @@ body {
     font-size: 16px;
 }
 
-button {
-    cursor: pointer;
+.btn.btn-primary {
+    background-color: var(--cream);
+    color: black;
+    border: none;
 }
+
+
+.btn.btn-primary:hover {
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+
+/*TODO */
+.btn.btn-primary:active {
+    background-color: white;
+    color: white;
+    border: none;
+}
+
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
 
-
-/* Footer */
-
-footer {
-    background-color: var(--grey);
-    padding: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-footer .links a {
-    color: black;
-}
-
-footer .partner img {
-    width: 10rem;
-    margin: 1rem;
-
-}
-
-.partner {
-    font-size: 0;
-    line-height: 0;
-}
-
-.cardsContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 3rem;
-}
-
-
-
-.carousel-item {
-    width:70vw;
-    height:30vh;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Stellt sicher, dass der Körper mindestens die volle Bildschirmhöhe einnimmt */
-}
-
-footer {
-    margin-top: auto; /* Sorgt dafür, dass der Footer immer am unteren Rand des Bildschirms bleibt */
-}
 

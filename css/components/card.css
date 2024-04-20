@@ -1,0 +1,29 @@
+.card {
+    width: 18rem;
+}
+
+.card-title, .card-text {
+    text-align: center;
+}
+
+
+.cardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12rem;
+}
+
+.card-body > .btn {
+    width: 50%;
+    align-self: center;
+}

@@ -1,6 +1,5 @@
 'use strict';
 
-import KWM_Bindings from './kwm-bindings.js';
 
 /**
  * KWM_Component
@@ -16,6 +15,7 @@ export default class KWM_Component extends HTMLElement {
     // Use html attributes to pass in data
     constructor() {
         super();
+        this._innerHTML = '';
         this._mounted = false;
         this._container = null;
         this._bindings = null;
@@ -41,12 +41,7 @@ export default class KWM_Component extends HTMLElement {
     // This function does the displaying magic
     render(container) {
 
-        if (!this._bindings) {
 
-            // Create a new KWM_Bindings object and assign it to _bindings
-            this._bindings = new KWM_Bindings(this);
-
-        }
         // If a container is passed, render the component into the container
         if (container) {
             // Save the container
@@ -59,14 +54,10 @@ export default class KWM_Component extends HTMLElement {
         }
 
 
-
-
         // Compile the component template
         // Pass the all the component into the template to access all its functions and properties
         // Here is where the actual displaying happens
         this.innerHTML = this.template(this);
-        this._bindings.applyBindings(this._container);
-
 
 
         // (Bonus) Lifecycle-Hook function for first render

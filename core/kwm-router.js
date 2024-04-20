@@ -1,5 +1,7 @@
 'use strict';
 
+import KWM_Route from './kwm-route.js';
+
 /**
  * KWM_Router
  *
@@ -27,6 +29,7 @@ export default class KWM_Router {
     init() {
         window.addEventListener('hashchange', this.changeView.bind(this));
         this.changeView();
+
     }
 
     // forwards the user to the route / page of the application with the specified slug
@@ -55,6 +58,8 @@ export default class KWM_Router {
             KWM_Router.redirect(this.slugNotFound);
         }
     }
+
+
 
     // (Bonus) Get the search/get parameters of the current URL
     static getGetUrlSearchParams() {
