@@ -17,6 +17,7 @@ import SimpleTextComponent from "./components/elements/SimpleTextComponent.js";
 import HeroComponent from "./components/elements/HeroComponent.js";
 import HighlightComponent from "./components/elements/HighlightComponent";
 import TextInColorComponent from "./components/elements/TextInColorComponent";
+import Gallery3Component from "./components/elements/Gallery3Component";
 
 import KWM_Route from './core/kwm-route.js';
 import KWM_Router from './core/kwm-router.js';

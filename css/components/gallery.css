@@ -6,9 +6,11 @@
     margin: 2rem;
 }
 
+
+
 .pictures .img-gallery {
     width: 100%;
-    height: auto;
+    height: 100%;
     cursor: pointer;
 
 }

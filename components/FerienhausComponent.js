@@ -12,10 +12,10 @@ export default class FerienhausComponent extends KWM_Component {
         <section id="main_content">
         
        <hero-teaser-component
-                heading="Ankommen & Abschalten.." 
-                text= "im Ferienhaus Pürstl - direkt an der Piste der Reiteralm." 
+                heading="Erholsame Auszeit" 
+                text= ".. das ganze Jahr über" 
                 btn-text="Jetzt anfragen" 
-                link="#/" 
+                link="mailto:info@reiteralm-ferienhaus.at" 
                 background-image="/images/außen_sommer_main.JPG">
        </hero-teaser-component>
   

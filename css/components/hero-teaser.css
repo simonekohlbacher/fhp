@@ -24,16 +24,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 
 .hero-teaser h1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .hero-teaser p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 
 }
 

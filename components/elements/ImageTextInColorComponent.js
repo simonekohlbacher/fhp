@@ -14,10 +14,9 @@ export default class ImageTextInColorComponent extends KWM_Component {
                         <h2>${this.getAttribute('heading') ?? ''}</h2>
                         </br>
                         <p>${this.getAttribute('text') ?? ''}</p>
-                        <p><a class="cta" href="${this.getAttribute('link') ?? '#/'}">${this.getAttribute('btn-text') ?? ''}</a></p>
+                        <p><a class="btn btn-secondary" target="_blank" href="${this.getAttribute('link') ?? '#/'}">${this.getAttribute('btn-text') ?? ''}</a></p>
                     </div>
-                    <img src="${this.getAttribute('image')}" style="width: 40vw;" />
-
+                    <img src="${this.getAttribute('image')}" alt="${this.getAttribute('alt')}" />
                 </div>
             </section>
         `;

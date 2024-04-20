@@ -5,18 +5,21 @@
 }
 
 .image-and-text .content {
-    padding: 5rem 10rem 5rem 10rem;
+    padding: 5rem;
     display: flex;
     flex-direction: row;
-    gap: 15rem;
+    justify-content: space-between;
+    gap: 7rem;
     background-color: var(--cream);
-
 }
 
 .image-and-text .content .text {
     align-self: center;
     text-align: left;
+}
 
+.image-and-text .content img {
+    width: 40%;
 }
 
 

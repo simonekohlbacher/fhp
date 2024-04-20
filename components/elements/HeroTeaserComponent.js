@@ -21,7 +21,7 @@ export default class HeroTeaserComponent extends KWM_Component {
         return /*html*/`
             <section class="hero-teaser">
                 <div class="content">
-                    <img src="${this.getAttribute('background-image')}"/>
+                    <img src="${this.getAttribute('background-image')}" alt="${this.getAttribute('alt')}"/>
                     <div class="text">
                         <h1>${this.getAttribute('heading') ?? ''}</h1>
                         <p>${this.getAttribute('text') ?? ''}</p>

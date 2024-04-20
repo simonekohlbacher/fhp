@@ -10,7 +10,7 @@ export default class CardComponent extends KWM_Component {
         return /*html*/`
             <section class="card">
                <div class="card">
-                 <img class="card-img-top" src="/images/berge.JPG" alt="Card image cap">
+                  <img src="${this.getAttribute('image')}" class="card-img-top" alt="${this.getAttribute('alt')}">
                 <div class="card-body">
                     <h5 class="card-title">${this.getAttribute('title') ?? ''}</h5>
                     <p class="card-text">${this.getAttribute('text') ?? ''}</p>

@@ -14,7 +14,7 @@ export default class TextInColorComponent extends KWM_Component {
                         <h2>${this.getAttribute('heading') ?? ''}</h2>
                         </br>
                         <p>${this.getAttribute('text') ?? ''}</p>
-                        <p><a class="btn btn-secondary" href="${this.getAttribute('link') ?? '#/'}">${this.getAttribute('btn-text') ?? ''}</a></p>
+                        <p><a class="btn btn-secondary" target="_blank" href="${this.getAttribute('link') ?? '#/'}">${this.getAttribute('btn-text') ?? ''}</a></p>
                     </div>
 
                 </div>
