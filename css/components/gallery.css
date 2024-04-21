@@ -15,6 +15,10 @@
 
 }
 
+.img-gallery:hover {
+    filter: brightness(70%);
+}
+
 .img-gallery.enlarge {
     position: fixed;
     top: 50%;

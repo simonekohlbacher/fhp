@@ -25,9 +25,7 @@ export default class FerienhausComponent extends KWM_Component {
                 und bietet Platz für bis zu 5 Personen. Mit Blick und direktem 
                 Zugang zur Skipiste der Reiteralm ist es der perfekte 
                 Ausgangspunkt für zahlreiche Aktivitäten in der Region. 
-                Das ganze Jahr über."
-            btn-text="Mehr erfahren"
-            link= "/#">
+                Das ganze Jahr über.">
        </simple-text-component>
         
   
