@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "vite-plugin-minify": "^1.5.2"
+  }
+}
