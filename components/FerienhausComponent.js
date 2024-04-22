@@ -16,7 +16,7 @@ export default class FerienhausComponent extends KWM_Component {
                 text= ".. das ganze Jahr über" 
                 btn-text="Jetzt anfragen" 
                 link="mailto:info@reiteralm-ferienhaus.at" 
-                background-image="/images/außen_sommer_main.JPG">
+                background-image="/images/haus/außen_sommer_main.JPG">
        </hero-teaser-component>
   
        <simple-text-component
@@ -47,7 +47,7 @@ export default class FerienhausComponent extends KWM_Component {
            </highlight-component>
         </div>
         
-        <image src="/images/berge2.jpg" alt="Ferienhaus Pürstl" style="width: 100%; height: 50vh;"></image>
+        <image src="/images/outdoor/berge2.jpg" alt="Ferienhaus Pürstl" class="standAloneImg"></image>
         
         <text-color-component
             heading="Gemütliches Zuhause auf Zeit"

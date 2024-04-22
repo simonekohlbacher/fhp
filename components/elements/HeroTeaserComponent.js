@@ -15,7 +15,7 @@ export default class HeroTeaserComponent extends KWM_Component {
 
         let buttonHtml = '';
         if (btnText && link) {
-            buttonHtml = `<a class="btn btn-secondary" href="${link}">${btnText}</a>`;
+            buttonHtml = `<button class="btn btn-secondary" onclick="window.location.href='${link}'">${btnText}</button>`;
         }
 
         return /*html*/`

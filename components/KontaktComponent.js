@@ -11,7 +11,7 @@ export default class KontaktComponent extends KWM_Component {
         return /*html*/`
         <section id="main_content">
  
-           <image src="/images/bankerl.jpg" alt="Berglandschaft mit Sitzbank" style="width: 100%; height: 80vh;"></image>
+           <image src="/images/outdoor/bankerl.jpg" alt="Berglandschaft mit Sitzbank" class="standAloneImg""></image>
 
            
            <simple-text-component 
@@ -29,7 +29,7 @@ export default class KontaktComponent extends KWM_Component {
                 info@ferienhaus-reiteralm.at"
                 btn-text="Schreib uns!" 
                 link="mailto:info@reiteralm-ferienhaus.at"
-                image="/images/schafe3.JPG"
+                image="/images/outdoor/schafe3.JPG"
                 alt="Schafe am Berg">
             </image-text-color-component>
            
@@ -45,11 +45,11 @@ export default class KontaktComponent extends KWM_Component {
            </div>
           
           <gallery3-component
-          image1="/images/außen_sommer_main.JPG"  
+          image1="/images/haus/außen_sommer_main.JPG"  
                alt1="Außenansicht Ferienhaus im Sommer"
-          image2="/images/außen_winter_main.JPG"
+          image2="/images/haus/außen_winter_main.JPG"
                alt2="Außenansicht Ferienhaus im Winter"
-          image3="/images/berge.JPG"
+          image3="/images/outdoor/berge.JPG"
                alt3="Berglandschaft">
         </gallery3-component>
            

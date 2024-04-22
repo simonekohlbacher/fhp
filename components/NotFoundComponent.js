@@ -7,16 +7,23 @@ export default class NotFoundComponent extends KWM_Component {
         super();
 
         // Any component data goes here in the constructor
-        this.text = "Ups, die Seite gibt's nicht!";
+        this.text = "Verlaufen? ";
     }
 
     // Template function = shape of the component
     template() {
         return /*html*/`
         <section id="main_content">
-            <h1>${this.text}</h1>
-            <p><a href="#/">Zurück zur Startseite</a></p>
+        <image src="/images/outdoor/schafe1.jpg" alt="Schafe am Berg" style="width: 100%; height: 70vh;"></image>
+        <div class="specialSites">
+            <h2>${this.text}</h2>
+            <p>Hier gibt's nichts zu sehen. Außer Schafe vielleicht.</p>
+        
+            <button class="btn btn-primary" onclick="window.location.href='#/'">Zurück zur Startseite</button>
+            
+        </div>
         </section>
+        
         `;
     }
 }

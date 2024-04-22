@@ -14,7 +14,7 @@ export default class ErlebenComponent extends KWM_Component {
             <hero-teaser-component
                 heading="In Ruhe erleben" 
                 text= "Raus aus dem Alltag und rein ins Vergnügen! "
-                background-image="/images/sonnengang4.JPG" 
+                background-image="/images/outdoor/sonnengang4.JPG" 
                 alt="Sonnenaufgang in den Bergen">
             </hero-teaser-component>
             
@@ -27,11 +27,11 @@ export default class ErlebenComponent extends KWM_Component {
            </text-color-component>
            
            <gallery3-component
-             image1="/images/winter_haus1.JPG"  
+             image1="/images/haus/winter_haus1.JPG"  
                alt1="Außenansicht Ferienhaus im Sommer"
-             image2="/images/winter_haus2.JPG"
+             image2="/images/haus/winter_haus2.JPG"
                alt2="Außenansicht Ferienhaus im Winter"
-             image3="/images/berge.JPG"
+             image3="/images/outdoor/berge.JPG"
                alt3="Berglandschaft">
             </gallery3-component>
             
@@ -41,7 +41,7 @@ export default class ErlebenComponent extends KWM_Component {
                     Bei uns hast du den perfekten Ausgangspunkt für unzählige Wander- und Biketouren und einzigartigen Sommer Abenteuern. Im Sommer genießt du außerdem die Vorteile der Schladming-Dachstein Sommer-Card. "
                     btn-text="Mehr Sommer Highlights" 
                     link="https://www.schladming-dachstein.at/de/Sommer"
-                    image="/images/sonnengang.JPG"
+                    image="/images/outdoor/sonnengang.JPG"
                     alt="Sonnenuntergang in den Bergen">
              </image-text-color-component>
         

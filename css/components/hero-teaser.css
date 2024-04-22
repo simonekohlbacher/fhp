@@ -18,29 +18,27 @@
 }
 
 .hero-teaser .content .text{
-    padding: 3em;
+    padding: 6rem;
     text-align: center;
     background-color: var(--cream);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 
 .hero-teaser h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .hero-teaser p {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
 
 }
 
-.cta {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+.hero-teaser .content .btn {
+    width: 45%;
 }
 
 /* Media Query for smaller screens */

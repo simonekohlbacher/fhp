@@ -21,7 +21,7 @@ export default class SimpleTextComponent extends KWM_Component {
         return /*html*/`
         <section class="simpleText">
             <div class="content">
-                <h2>${heading}</h2>
+                <h1>${heading}</h1>
                 <p>${text}</p>
                 ${buttonHtml}
             </div>

@@ -3,13 +3,24 @@
 footer {
     background-color: var(--cream);
     padding: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0;
 
 }
-footer .links a {
+
+/* Striche zwischen den Logos */
+footer .partner a {
+    display: inline-block
+}
+
+footer .links {
+    align-self: center;
+}
+
+footer a, span  {
     color: black;
+    font-size: 1.2rem;
 }
 
 footer .partner img {
@@ -18,29 +29,8 @@ footer .partner img {
 
 }
 
-.partner {
-    font-size: 0;
-    line-height: 0;
-}
 
-
-
-.carousel-item {
-    width:70vw;
-    height:30vh;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-footer {
-    margin-top: auto;
-}
-
-.social a:hover {
+footer a:hover {
     text-decoration: none;
     color: var(--cream);
 

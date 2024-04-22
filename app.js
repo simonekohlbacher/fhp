@@ -76,3 +76,5 @@ $(document).ready(function(){
         sessionStorage.setItem('cookieAccepted', 'true');
     });
 });
+
+

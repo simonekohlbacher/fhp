@@ -1,0 +1,81 @@
+/*Tablet */
+
+
+
+/*Mobile */
+@media screen and (max-width: 819px) {
+    .partner a img {
+        width: 3rem;
+    }
+
+    footer .partner a {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .cardsContainer {
+        gap: 3rem;
+        margin: 1rem;
+    }
+
+    .hero-teaser .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-teaser .content .text h1, p{
+        font-size: 1.5rem;
+    }
+
+    .hero-teaser .content .text{
+        height: 30vh;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .image-and-text img {
+        display: none;
+    }
+
+    #navbarNav .navbar-nav {
+        gap: 0;
+        margin-top: 2rem;
+    }
+
+    .highlightContainer {
+        gap: 1.5rem;
+
+    }
+    .standAloneImg {
+        height: 35vh;
+
+    }
+
+    .text-color .text, .image-and-text .content {
+        display: block;
+    }
+
+
+    .text-color .text, .image-and-text .content p,h2{
+        text-align: center;
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+    .nav-item .nav-link {
+        font-size: 1.1rem;
+
+
+    }
+}
+
+

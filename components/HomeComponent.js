@@ -26,7 +26,7 @@ export default class HomeComponent extends KWM_Component {
                 text= "im Ferienhaus Pürstl - direkt an der Piste der Reiteralm." 
                 btn-text="" 
                 link="#/" 
-                background-image="/images/berge.JPG" 
+                background-image="/images/outdoor/berge.JPG" 
                 alt="Berglandschaft">
             </hero-teaser-component>
             
@@ -38,7 +38,7 @@ export default class HomeComponent extends KWM_Component {
                
             <div class="cardsContainer">
                 <card-component 
-                    image="/images/sommer_test.JPG"
+                    image="/images/haus/sommer_test.JPG"
                     alt="Ferienhaus Sommer"
                     title= "Das Häuschen"
                     text="Abseits vom Trubel & direkt neben der Piste"
@@ -52,7 +52,7 @@ export default class HomeComponent extends KWM_Component {
                     text="Sommer wie Winter - immer ein Erlebnis"
                     btn-text="Mehr"
                     link="#/erleben"
-                    image="/images/gipfelkreuz.JPG"
+                    image="/images/outdoor/gipfelkreuz.JPG"
                     alt="Berge mit Gipfelkreuz">
                 </card-component>
 
@@ -61,7 +61,7 @@ export default class HomeComponent extends KWM_Component {
                     text="Schreib uns oder ruf uns an - wir helfen dir gerne weiter"
                     btn-text="Mehr"
                     link="#/kontakt"
-                    image="/images/gastgeber.JPG"
+                    image="/images/outdoor/gastgeber.JPG"
                     alt="Skifahrer auf der Piste">
                 </card-component>
             </div>
@@ -72,7 +72,7 @@ export default class HomeComponent extends KWM_Component {
                     text= "Unser Ferienhaus liegt zentral, eingebettet zwischen den imposanten Schladminger Tauern im Osten und dem angrenzenden Salzburger Land im Westen. Dank der guten Verkehrsanbindung, genau zwischen Radstadt und Schladming gelegen, können Sie die gesamte Region bequem erkunden. Das ganze Jahr über erwarten dich zahlreiche Events und Attraktionen in der Umgebung."
                     btn-text="Aktuelle Events" 
                     link="https://www.schladming-dachstein.at/de/Alle-Veranstaltungen"
-                    image="/images/berge.JPG"
+                    image="/images/outdoor/berge.JPG"
                     alt="Berglandschaft">
              </image-text-color-component>
               
@@ -82,23 +82,23 @@ export default class HomeComponent extends KWM_Component {
              </simple-text-component>
                         
              <gallery-component
-                image1="/images/außen_sommer_main.JPG"  
+                image1="/images/haus/außen_sommer_main.JPG"  
                     alt1="Außenansicht Ferienhaus im Sommer"
-                image2="/images/außen_winter_main.JPG"
+                image2="/images/haus/außen_winter_main.JPG"
                     alt2="Außenansicht Ferienhaus im Winter"
-                image3="/images/berge.JPG"
+                image3="/images/outdoor/berge.JPG"
                     alt3="Berglandschaft"
-                image4="/images/wohnküche_bett.JPG"
+                image4="/images/haus/wohnküche_bett.JPG"
                     alt4="Wohnküche mit Bett"
-                image5="/images/wohnküche.JPG"
+                image5="/images/haus/wohnküche.JPG"
                     alt5="Wohnküche"    
-               image6="/images/berge.JPG"
+               image6="/images/outdoor/berge.JPG"
                     alt6="Sommerbild"
-               image7="/images/berge.JPG"
+               image7="/images/outdoor/berge.JPG"
                     alt7="Sommerbild"
-                image8="/images/berge.JPG"
+                image8="/images/outdoor/berge.JPG"
                     alt8="Sommerbild"
-                image9="/images/berge.JPG"
+                image9="/images/outdoor/berge.JPG"
                     alt9="Sommerbild">
             </gallery-component>
             

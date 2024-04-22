@@ -1,12 +1,12 @@
-
 /* Nav */
+
 #navigation {
     background-color: white;
     padding: 1.7rem;
 }
 
 #logo {
-    width: 6rem;
+    width: 7rem;
     margin-left: 2rem;
     transition: transform 0.5s ease;
 }
@@ -15,7 +15,9 @@
     transform: scale(1.1);
 }
 
-.nav-link {
+
+.nav-item {
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: black;
 }
@@ -25,9 +27,9 @@
     color: var(--cream);
 }
 
+
 .navbar-nav .nav-link:active {
     text-decoration: underline;
-    color: red;
 }
 
 
@@ -37,6 +39,5 @@
     width: 100%;
     gap: 3rem;
 }
-
 
 
