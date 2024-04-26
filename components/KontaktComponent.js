@@ -11,7 +11,7 @@ export default class KontaktComponent extends KWM_Component {
         return /*html*/`
         <section id="main_content">
  
-           <image src="/images/outdoor/bankerl.jpg" alt="Berglandschaft mit Sitzbank" class="standAloneImg""></image>
+           <image src="/images/outdoor/berge.jpg" alt="Berglandschaft mit Sitzbank" class="standAloneImg"></image>
 
            
            <simple-text-component 
