@@ -13,7 +13,7 @@ export default class DatenschutzComponent extends KWM_Component {
         <section id="main_content">
        
            
-        <image src="/images/outdoor/berge4.jpg" alt="Berglandschaft Bischofsmütze" style="width: 100%; height: 80vh;"></image>
+        <img src="/images/outdoor/berge4.JPG" alt="Berglandschaft Bischofsmütze" class="standAloneImg"/>
         <div class="specialSites">
         
         
