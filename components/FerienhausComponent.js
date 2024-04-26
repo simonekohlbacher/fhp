@@ -47,7 +47,7 @@ export default class FerienhausComponent extends KWM_Component {
            </highlight-component>
         </div>
         
-        <img src="/images/outdoor/berge2.jpg" alt="Ferienhaus Pürstl" class="standAloneImg"></img>
+        <img src="/images/outdoor/berge2.jpg" alt="Ferienhaus Pürstl" class="standAloneImg"/>
         
         <text-color-component
             heading="Gemütliches Zuhause auf Zeit"
