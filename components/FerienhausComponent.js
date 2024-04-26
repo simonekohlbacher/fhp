@@ -46,6 +46,8 @@ export default class FerienhausComponent extends KWM_Component {
                 text="Voll ausgestattete Wohnküche">
            </highlight-component>
         </div>
+
+        <img src="/images/outdoor/berge2.JPG" alt="Berglandschaft" class="standAloneImg"/>
         
         
         <text-color-component
@@ -67,7 +69,6 @@ export default class FerienhausComponent extends KWM_Component {
             btn-text="AGBH">
         </simple-text-component>
 
-        <img src="/images/outdoor/berge2.JPG" alt="Berglandschaft" class="standAloneImg"/>
 
         </section>
         `;
