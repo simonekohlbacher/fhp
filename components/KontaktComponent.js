@@ -43,6 +43,8 @@ export default class KontaktComponent extends KWM_Component {
                  <button onclick="window.open('https://www.facebook.com/profile.php?id=100075966014770', '_blank')" class="btn btn-primary">Facebook</button>
                  <button onclick="window.open('https://www.google.at/maps/place/Ferienhaus+P%C3%BCrstl/@47.388498,13.5924077,18z/data=!4m6!3m5!1s0x47712ef87d250785:0xd079c4d86d0d0b4!8m2!3d47.3884345!4d13.5936093!16s%2Fg%2F11hzv5x18g?entry=tts', '_blank')" class="btn btn-primary">Google Maps</button>
            </div>
+           
+       
           
           <gallery3-component
           image1="/images/haus/außen_sommer_main.JPG"  
@@ -53,11 +55,9 @@ export default class KontaktComponent extends KWM_Component {
                alt3="Berglandschaft">
         </gallery3-component>
            
-           
-           
-           
-          
-           
+                   
+       
+      
            
            
         </section>

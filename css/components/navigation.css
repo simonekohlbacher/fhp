@@ -16,10 +16,12 @@
 }
 
 
+
 .nav-item {
     font-size: 1.5rem;
     text-transform: uppercase;
     color: black;
+    font-weight: bolder;
 }
 
 
