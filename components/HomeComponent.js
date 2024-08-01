@@ -27,7 +27,7 @@ export default class HomeComponent extends KWM_Component {
                 btn-text="" 
                 link="#/" 
                 background-image="/images/outdoor/skiing.JPG" 
-                alt="Berglandschaft">
+                alt="Skifahren">
             </hero-teaser-component>
             
               
