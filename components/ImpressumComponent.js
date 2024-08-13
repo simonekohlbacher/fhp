@@ -11,8 +11,7 @@ export default class ImpressumComponent extends KWM_Component {
         return /*html*/`
         <section id="main_content">
         
-        <img src="/images/outdoor/bankerl.JPG" alt="Berglandschaft Bischofsmütze" class="standAloneImg"/>
-       
+        <img src="/images/outdoor/berge4.JPG" alt="Berglandschaft Bischofsmütze" class="standAloneImg"/>                   
         <div class="specialSites">
         
         <h1>Impressum</h1>
