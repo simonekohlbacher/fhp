@@ -53,8 +53,8 @@ export default class FerienhausComponent extends KWM_Component {
         <text-color-component
             heading="Gemütliches Zuhause auf Zeit"
             text="Unsere Ferienwohnung bietet kostenfreies WLAN, ein Wohnzimmer mit Doppelcouch, ein Schlafzimmer mit Doppelbett und ein weiteres Schlafzimmer mit Einzelbett. Außerdem gibt es einen Balkon, ein Badezimmer mit WC und ein zusätzliches separates WC. Zur Ausstattung gehören zwei SAT-TV-Geräte und eine komplett ausgestattete Küche mit Essecke, Mikrowelle, Ceran Kochfeld, Backrohr, Kaffeemaschine und Kühlschrank mit Gefrierfach. Bettwäsche und Handtücher werden gestellt, und gegen Aufpreis bieten wir einen Brötchenservice an."
-            btn-text="Zur Galerie" 
-            link="#/">
+            btn-text="Check unser Instagram!" 
+            link="https://www.instagram.com/ferienhaus_puerstl/">
         </text-color-component>
         
         
@@ -69,6 +69,34 @@ export default class FerienhausComponent extends KWM_Component {
             btn-text="AGBH">
         </simple-text-component>
 
+
+          <simple-text-component
+               heading = "Klick dich durch..">
+         </simple-text-component>
+             
+           <gallery-component
+                image1="/images/haus/außen_sommer.JPG"  
+                    alt1="Außenansicht Ferienhaus im Sommer"
+                image2="/images/haus/Bett_oben_klein.JPG"
+                    alt2="Schlafzimmer mit Bett"
+                image3="/images/haus/Bad.JPG"
+                    alt3="Badezimmer"
+               
+                image4="/images/haus/Küche.JPG"
+                    alt4="Wohnküche"
+                     image5="/images/haus/Bett_Wohnküche.JPG"
+                    alt5="Wohnküche mit Bett"
+                    
+                image6="/images/haus/Schlafzimmer_oben_gross.JPG"
+                    alt6="Schlafzimmer"    
+             
+               image7="/images/haus/Wohnküche_TV.JPG"
+                    alt7="Wohnküche mit TV"
+                image8="/images/haus/hausplan_1.jpg"
+                    alt8="Hausplan"
+                image9="/images/haus/hausplan_2.jpg"
+                    alt9="Hausplan">
+            </gallery-component>
 
         </section>
         `;

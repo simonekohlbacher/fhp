@@ -47,18 +47,16 @@ export default class KontaktComponent extends KWM_Component {
        
           
           <gallery3-component
-          image1="/images/haus/außen_sommer_main.JPG"  
-               alt1="Außenansicht Ferienhaus im Sommer"
-          image2="/images/haus/außen_winter_main.JPG"
+          image1="/images/haus/Johnny.JPG"  
+               alt1="Blick auf die Piste"
+          image2="/images/outdoor/spiegelsee.JPG"
                alt2="Außenansicht Ferienhaus im Winter"
-          image3="/images/outdoor/berge.JPG"
-               alt3="Berglandschaft">
+          image3="/images/outdoor/gastgeber.JPG"
+               alt3="Skifahren">
         </gallery3-component>
            
                    
        
-      
-           
            
         </section>
         `;

@@ -5,7 +5,17 @@
 
 .card-title, .card-text {
     text-align: center;
+
 }
+
+.card-body p {
+    font-size: 1.1rem !important;
+    padding: 1rem 2rem 0rem 2rem;
+    line-height: 1.2rem;
+
+}
+
+
 
 
 .cardsContainer {

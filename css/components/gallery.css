@@ -10,10 +10,12 @@
 
 .pictures .img-gallery {
     width: 100%;
-    height: 100%;
+    aspect-ratio: 4 / 3;
     cursor: pointer;
+    object-fit: cover;
 
 }
+
 
 .img-gallery:hover {
     filter: brightness(70%);
@@ -27,6 +29,7 @@
     max-width: 90%; /* Maximal 90% der Bildschirmbreite */
     max-height: 90%; /* Maximal 90% der Bildschirmhöhe */
     z-index: 1000; /* Über dem Overlay */
+    object-fit: contain; /* Beibehaltung des Seitenverhältnisses beim Vergrößern */
 }
 
 #overlay {

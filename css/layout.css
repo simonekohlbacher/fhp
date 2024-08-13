@@ -50,8 +50,9 @@ body {
 
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.7rem !important;
     font-weight: bold;
+
 }
 
 h2 {
@@ -60,7 +61,7 @@ h2 {
 }
 
 p {
-    font-size: 1.35rem;
+    font-size: 1.35rem !important;
 }
 
 .contactLink {

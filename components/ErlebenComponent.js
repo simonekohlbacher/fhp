@@ -29,10 +29,12 @@ export default class ErlebenComponent extends KWM_Component {
            <gallery3-component
              image1="/images/haus/winter_haus1.JPG"  
                alt1="Außenansicht Ferienhaus im Sommer"
-             image2="/images/haus/winter_haus2.JPG"
-               alt2="Außenansicht Ferienhaus im Winter"
-             image3="/images/outdoor/berge.JPG"
-               alt3="Berglandschaft">
+             
+             image2="/images/haus/Prospekte.JPG"
+               alt2="Schladming Dachstein Sommercard"
+
+               image3="/images/haus/winter_haus2.JPG"
+               alt3="Außenansicht Ferienhaus im Winter" >
             </gallery3-component>
             
               <image-text-color-component
