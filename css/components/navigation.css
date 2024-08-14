@@ -42,4 +42,9 @@
     gap: 3rem;
 }
 
+@media (max-width: 768px) {
+    #logo {
+        margin-left: auto;
+    }
+}
 

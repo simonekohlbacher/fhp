@@ -65,6 +65,11 @@
     z-index: 1001; /* Über dem Bild */
     display: flex;
     justify-content: center;
-
 }
 
+
+@media (max-width: 768px) {
+    .pictures {
+        grid-template-columns: 1fr; /* Eine Spalte für mobile Ansicht */
+    }
+}

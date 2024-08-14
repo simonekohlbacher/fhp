@@ -50,4 +50,8 @@
     .hero-teaser p {
         font-size: 1rem;
     }
+
+    .hero-teaser .content .text {
+        padding: 3rem;
+    }
 }
