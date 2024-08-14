@@ -23,5 +23,13 @@
 }
 
 
+@media (max-width: 768px) {
+    .image-and-text .content {
+        padding: 2rem;
+    }
+}
+
+
+
 
 

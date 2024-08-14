@@ -10,3 +10,9 @@
     padding: 5rem;
 
 }
+
+@media (max-width: 768px) {
+    .text-color .content {
+        padding: 2rem;
+    }
+}
