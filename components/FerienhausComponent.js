@@ -16,7 +16,7 @@ export default class FerienhausComponent extends KWM_Component {
                 text= ".. das ganze Jahr über" 
                 btn-text="Jetzt anfragen" 
                 link="mailto:info@reiteralm-ferienhaus.at" 
-                background-image="/images/haus/außen_sommer_main.JPG">
+                background-image="/images/haus/aussen_sommer_main.JPG">
        </hero-teaser-component>
   
        <simple-text-component
@@ -75,22 +75,22 @@ export default class FerienhausComponent extends KWM_Component {
          </simple-text-component>
              
            <gallery-component
-                image1="/images/haus/außen_sommer.JPG"  
+                image1="/images/haus/aussen_sommer.JPG"  
                     alt1="Außenansicht Ferienhaus im Sommer"
                 image2="/images/haus/Bett_oben_klein.JPG"
                     alt2="Schlafzimmer mit Bett"
                 image3="/images/haus/Bad.JPG"
                     alt3="Badezimmer"
                
-                image4="/images/haus/Küche.JPG"
+                image4="/images/haus/Kueche.JPG"
                     alt4="Wohnküche"
-                     image5="/images/haus/Bett_Wohnküche.JPG"
+                     image5="/images/haus/Bett_Wohnkueche.JPG"
                     alt5="Wohnküche mit Bett"
                     
                 image6="/images/haus/Schlafzimmer_oben_gross.JPG"
                     alt6="Schlafzimmer"    
              
-               image7="/images/haus/Wohnküche_TV.JPG"
+               image7="/images/haus/Wohnkueche_TV.JPG"
                     alt7="Wohnküche mit TV"
                 image8="/images/haus/hausplan_1.jpg"
                     alt8="Hausplan"
