@@ -65,16 +65,4 @@ const myRouter = new KWM_Router({
 
 myRouter.init();
 
-// Navigating to the home page should display the Hero-Teaser similar like in the example picture
-$(document).ready(function(){
-    if (!sessionStorage.getItem('cookieAccepted')) {
-        $('#cookieModal').modal('show');
-    }
-
-    $('#acceptButton').click(function() {
-        $('#cookieModal').modal('hide');
-        sessionStorage.setItem('cookieAccepted', 'true');
-    });
-});
-
 
